@@ -37,6 +37,6 @@ let s:p.tabline.tabsel = [ [ s:base3, s:base02 ] ]
 let s:p.tabline.middle = [ [ s:base01, s:base1 ] ]
 let s:p.tabline.right = copy(s:p.normal.right)
 let s:p.normal.error = [ [ s:red, s:base02 ] ]
-let s:p.normal.warning = [ [ s:yellow, s:base01 ] ]
+let s:p.normal.warning = [ [ s:yellow, s:base02 ] ]
 
 let g:lightline#colorscheme#seoul256#palette = lightline#colorscheme#flatten(s:p)
